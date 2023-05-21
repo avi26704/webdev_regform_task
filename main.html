@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+        REGISTRATION FORM <br>
+        <label for="secline" class = "secline">RoboVITics-The Official Robotics Club of VIT</label>
+        
+    </div>
+
+    <div class="form-details">
+        <form >
+            <label for="nameInput">Name <br>
+                <input type="text" class="input" id="name">
+            </label> <br>
+            <label for="dobInput">Date of Birth <br>
+                <input type="date" class="input" id="dob">
+            </label><br>
+            <label for="emailInput">Email Id <br>
+                <input type="email" class="input" id="email">
+            </label><br>
+            <label for="langKnown">Select the Languages you know <br>
+            <input type="checkbox">
+            JAVA <br>
+            <input type="checkbox">
+            C++ <br>
+            <input type="checkbox">
+            C <br>
+            <input type="checkbox">
+            PYTHON <br>
+            <input type="checkbox">
+            HTML & CSS <br>
+            <input type="checkbox">
+            JAVASCRIPT
+            </label> <br>
+            <label for="domain">Select the domain for which you want to register</label><br>
+            <select name="domain" class = "domain" id="domain">
+                <option value="select">--Select--</option>
+                <option value="App Development">App Development</option>
+                <option value="Web Development">Web Development</option>
+                <option value="AI & ML">AI & ML</option>
+                <option value="Cyber Security">Cyber Security</option>
+                <option value="Data Analyst">Data Analyst</option>
+            </select> <br>
+            <label for="q1">Current Technical Knowledge on the selected domain <br>
+                <textarea name="ans1" id="curKno" cols="35" rows="5" class="input"></textarea>
+
+            </label><br>
+            <label for="q2"> What do You want to achieve <br>
+                <textarea name="ans2" id="aim" cols="35" rows="5" class="input"></textarea>
+
+            </label><br>
+            <label for="q3"> What is your dream Project <br>
+                <textarea name="ans3" id="dreamProject" cols="35" rows="5" class="input"></textarea>
+            </label><br>
+            <button type="submit" class="button">
+                SUBMIT
+            </button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
